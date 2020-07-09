@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ac4eb38-d322-4e02-b923-a370192c9452" name="Default Changelist" comment="" />
+    <list default="true" id="6ac4eb38-d322-4e02-b923-a370192c9452" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/migrations/0002_basemodel_nav.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/develop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/lesson_api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lesson_api.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ePBtr8BQqri2iACQWZfgnhaqQJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,10 +37,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/apps/home" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/libs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\libs" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\home" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\utils" />
     </key>
@@ -75,7 +90,13 @@
       <workItem from="1594221292644" duration="1705000" />
       <workItem from="1594223109222" duration="1710000" />
       <workItem from="1594224961852" duration="1623000" />
-      <workItem from="1594226830854" duration="680000" />
+      <workItem from="1594226830854" duration="811000" />
+      <workItem from="1594255602705" duration="640000" />
+      <workItem from="1594294754093" duration="1553000" />
+      <workItem from="1594296602690" duration="1713000" />
+      <workItem from="1594298444799" duration="1719000" />
+      <workItem from="1594300303389" duration="1511000" />
+      <workItem from="1594302406025" duration="941000" />
     </task>
     <servers />
   </component>
@@ -83,21 +104,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1178" height="279" key="GridCell.Tab.0.bottom" timestamp="1594226218944">
+    <state width="1260" height="123" key="GridCell.Tab.0.bottom" timestamp="1594301211448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1178" height="279" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594226218944" />
-    <state width="1178" height="279" key="GridCell.Tab.0.center" timestamp="1594226218944">
+    <state width="1260" height="123" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
+    <state width="1260" height="123" key="GridCell.Tab.0.center" timestamp="1594301211448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1178" height="279" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594226218944" />
-    <state width="1178" height="279" key="GridCell.Tab.0.left" timestamp="1594226218944">
+    <state width="1260" height="123" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
+    <state width="1260" height="123" key="GridCell.Tab.0.left" timestamp="1594301211448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1178" height="279" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594226218944" />
-    <state width="1178" height="279" key="GridCell.Tab.0.right" timestamp="1594226218944">
+    <state width="1260" height="123" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
+    <state width="1260" height="123" key="GridCell.Tab.0.right" timestamp="1594301211448">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1178" height="279" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594226218944" />
+    <state width="1260" height="123" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
   </component>
 </project>
