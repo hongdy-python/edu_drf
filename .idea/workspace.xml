@@ -3,18 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac4eb38-d322-4e02-b923-a370192c9452" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/migrations/0002_basemodel_nav.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/settings/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu_api/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/lesson_api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lesson_api.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,16 +39,40 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/apps/user" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\user" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\libs" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\home" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.edu_api">
+    <configuration name="send_msg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="edu_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/send_msg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="edu_api" type="Python.DjangoServer" factoryName="Django server">
       <module name="edu_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +96,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.send_msg" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +126,16 @@
       <workItem from="1594296602690" duration="1713000" />
       <workItem from="1594298444799" duration="1719000" />
       <workItem from="1594300303389" duration="1511000" />
-      <workItem from="1594302406025" duration="941000" />
+      <workItem from="1594302406025" duration="1136000" />
+      <workItem from="1594304255023" duration="1210000" />
+      <workItem from="1594306263841" duration="287000" />
+      <workItem from="1594309689197" duration="1322000" />
+      <workItem from="1594554557321" duration="703000" />
+      <workItem from="1594556426907" duration="1780000" />
+      <workItem from="1594560067430" duration="1695000" />
+      <workItem from="1594562094045" duration="1574000" />
+      <workItem from="1594563985687" duration="1683000" />
+      <workItem from="1594565893353" duration="922000" />
     </task>
     <servers />
   </component>
@@ -104,21 +143,36 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1260" height="123" key="GridCell.Tab.0.bottom" timestamp="1594301211448">
+    <state x="137" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594560687118">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1260" height="123" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
-    <state width="1260" height="123" key="GridCell.Tab.0.center" timestamp="1594301211448">
+    <state x="137" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1594560687118" />
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1594566858916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1260" height="123" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
-    <state width="1260" height="123" key="GridCell.Tab.0.left" timestamp="1594301211448">
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594566858916" />
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1594561316601">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1260" height="123" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
-    <state width="1260" height="123" key="GridCell.Tab.0.right" timestamp="1594301211448">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1594561316601">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1260" height="123" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594301211448" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1594561316601">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
+    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1594561316601">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
+    <state x="186" y="29" key="SettingsEditor" timestamp="1594566860807">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594566860807" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/edu_api$send_msg.coverage" NAME="send_msg Coverage Results" MODIFIED="1594560745188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
