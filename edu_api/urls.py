@@ -20,6 +20,7 @@ from django.views.static import serve
 from xadmin.plugins import xversion
 
 from django.conf import settings
+
 xversion.register_models()
 urlpatterns = [
     # path('admin/', admin.site.urls),
@@ -27,4 +28,7 @@ urlpatterns = [
     re_path(r'media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT}),
     path("home/", include("home.urls")),
     path("user/", include("user.urls")),
+    path("course/", include("course.urls")),
+    # 富文本编辑器的路由
+    path("ckeditor/", include("ckeditor_uploader.urls")),
 ]

@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac4eb38-d322-4e02-b923-a370192c9452" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu_api/settings/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/constants.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu_api/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/develop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/lesson_api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lesson_api.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +38,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/apps/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/apps/course" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\course" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\user" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\libs" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\home" />
@@ -135,7 +135,31 @@
       <workItem from="1594560067430" duration="1695000" />
       <workItem from="1594562094045" duration="1574000" />
       <workItem from="1594563985687" duration="1683000" />
-      <workItem from="1594565893353" duration="922000" />
+      <workItem from="1594565893353" duration="1084000" />
+      <workItem from="1594600043570" duration="954000" />
+      <workItem from="1594647613232" duration="1716000" />
+      <workItem from="1594649528264" duration="1669000" />
+      <workItem from="1594651462127" duration="1738000" />
+      <workItem from="1594653291208" duration="822000" />
+      <workItem from="1594654198402" duration="862000" />
+      <workItem from="1594685866206" duration="1542000" />
+      <workItem from="1594687830145" duration="619000" />
+      <workItem from="1594689708894" duration="1413000" />
+      <workItem from="1594691561839" duration="1729000" />
+      <workItem from="1594693404018" duration="1786000" />
+      <workItem from="1594695283359" duration="1736000" />
+      <workItem from="1594697142551" duration="820000" />
+      <workItem from="1594703479325" duration="1033000" />
+      <workItem from="1594705261672" duration="1871000" />
+      <workItem from="1594725345569" duration="1699000" />
+      <workItem from="1594727169746" duration="1702000" />
+      <workItem from="1594728978729" duration="1740000" />
+      <workItem from="1594730868019" duration="1264000" />
+      <workItem from="1594732830295" duration="1705000" />
+      <workItem from="1594734634014" duration="1723000" />
+      <workItem from="1594736561218" duration="2069000" />
+      <workItem from="1594738793052" duration="1537000" />
+      <workItem from="1594740900226" duration="137000" />
     </task>
     <servers />
   </component>
@@ -147,30 +171,34 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1594560687118" />
-    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1594566858916">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594652424236">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594566858916" />
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1594561316601">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1594652424236" />
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1594741036737">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
-    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1594561316601">
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594741036737" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1594732453906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
-    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1594561316601">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594732453906" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1594732453905">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
-    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1594561316601">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594732453905" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1594732453905">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594561316601" />
-    <state x="186" y="29" key="SettingsEditor" timestamp="1594566860807">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594732453905" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1594732453906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594566860807" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594732453906" />
+    <state x="186" y="29" key="SettingsEditor" timestamp="1594741038874">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594741038874" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/edu_api$send_msg.coverage" NAME="send_msg Coverage Results" MODIFIED="1594560745188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />

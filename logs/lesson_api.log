@@ -708,3 +708,1137 @@ INFO 2020-07-12 23:13:02,622 basehttp 124 "POST /user/register/ HTTP/1.1" 201 21
 INFO 2020-07-12 23:13:09,099 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
 INFO 2020-07-12 23:13:09,110 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
 INFO 2020-07-12 23:13:13,129 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:33:07,026 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:33:07,031 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:33:07,137 basehttp 124 "GET /media/banner/004.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 08:33:07,138 basehttp 124 "GET /media/banner/09.png HTTP/1.1" 304 0
+INFO 2020-07-13 08:33:07,139 basehttp 124 "GET /media/banner/01.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 08:33:11,163 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:33:45,888 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:33:45,895 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:33:49,935 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:34:07,943 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:34:07,949 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+ERROR 2020-07-13 08:34:07,980 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+ERROR 2020-07-13 08:34:07,980 basehttp 124 "GET /home/banner/ HTTP/1.1" 500 59
+INFO 2020-07-13 08:34:10,965 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:34:10,970 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:34:15,020 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+WARNING 2020-07-13 08:37:32,154 basehttp 124 "GET /user/mobile/13898048954 HTTP/1.1" 400 38
+WARNING 2020-07-13 08:37:35,793 basehttp 124 "GET /user/mobile/1389804895 HTTP/1.1" 400 38
+INFO 2020-07-13 08:37:47,211 basehttp 124 "GET /user/mobile/13130951173 HTTP/1.1" 200 16
+INFO 2020-07-13 08:37:48,462 basehttp 124 "GET /user/sms/13130951173 HTTP/1.1" 200 32
+WARNING 2020-07-13 08:37:55,146 basehttp 124 "GET /user/sms/13130951173 HTTP/1.1" 400 51
+INFO 2020-07-13 08:38:12,780 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-13 08:38:16,901 basehttp 124 "POST /user/register/ HTTP/1.1" 400 43
+WARNING 2020-07-13 08:38:23,569 basehttp 124 "POST /user/register/ HTTP/1.1" 400 43
+WARNING 2020-07-13 08:38:29,106 basehttp 124 "POST /user/register/ HTTP/1.1" 400 43
+INFO 2020-07-13 08:38:37,012 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-13 08:38:43,534 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:38:43,543 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:38:47,579 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:38:56,081 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:38:56,082 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 08:39:00,135 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 533
+INFO 2020-07-13 08:45:42,039 basehttp 124 "GET /user/mobile/13122224444 HTTP/1.1" 200 16
+WARNING 2020-07-13 08:45:46,002 basehttp 124 "POST /user/register/ HTTP/1.1" 400 41
+WARNING 2020-07-13 08:46:25,143 basehttp 124 "POST /user/register/ HTTP/1.1" 400 41
+WARNING 2020-07-13 08:46:31,848 base 93 Not Found: /user/mobile/
+WARNING 2020-07-13 08:46:31,850 basehttp 124 "GET /user/mobile/ HTTP/1.1" 404 3045
+WARNING 2020-07-13 21:43:43,206 base 93 Not Found: /
+WARNING 2020-07-13 21:43:43,354 basehttp 124 "GET / HTTP/1.1" 404 2266
+WARNING 2020-07-13 21:43:43,630 base 93 Not Found: /favicon.ico
+WARNING 2020-07-13 21:43:43,633 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2317
+INFO 2020-07-13 21:43:54,675 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4366
+INFO 2020-07-13 21:43:54,726 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,734 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,737 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,740 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,742 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,748 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,802 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,803 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,803 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,811 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,812 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,813 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,847 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:54,847 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:55,099 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:55,100 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:43:58,785 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4373
+INFO 2020-07-13 21:43:58,984 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:12,583 basehttp 124 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2020-07-13 21:44:20,604 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 15548
+INFO 2020-07-13 21:44:20,664 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:20,671 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:20,671 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:24,715 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:44:35,769 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33479
+INFO 2020-07-13 21:44:35,813 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,829 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,831 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,833 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,837 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,838 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:35,841 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:44:39,841 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:50:28,044 basehttp 124 "GET /xadmin/home/nav/1/update/ HTTP/1.1" 200 20266
+INFO 2020-07-13 21:50:28,106 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,121 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,126 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,160 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,160 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,163 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:28,166 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-07-13 21:50:32,154 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:51:09,685 basehttp 124 "POST /xadmin/home/nav/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 21:51:13,947 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33726
+INFO 2020-07-13 21:51:18,052 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:51:28,018 basehttp 124 "GET /xadmin/home/nav/2/update/ HTTP/1.1" 200 20258
+INFO 2020-07-13 21:51:32,102 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:51:46,027 basehttp 124 "POST /xadmin/home/nav/2/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 21:51:50,229 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33708
+INFO 2020-07-13 21:51:54,317 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:52:01,373 basehttp 124 "GET /xadmin/home/nav/3/update/ HTTP/1.1" 200 20250
+INFO 2020-07-13 21:52:05,448 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:52:24,075 basehttp 124 "POST /xadmin/home/nav/3/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 21:52:28,265 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33716
+INFO 2020-07-13 21:52:32,328 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:52:39,538 basehttp 124 "GET /xadmin/home/nav/4/update/ HTTP/1.1" 200 20254
+INFO 2020-07-13 21:52:43,630 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 21:53:09,566 basehttp 124 "POST /xadmin/home/nav/4/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 21:53:13,817 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33735
+INFO 2020-07-13 21:53:17,883 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:00:38,902 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:00:38,902 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:00:39,656 basehttp 124 "GET /media/banner/09.png HTTP/1.1" 304 0
+INFO 2020-07-13 22:00:39,661 basehttp 124 "GET /media/banner/01.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 22:00:39,662 basehttp 124 "GET /media/banner/004.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 22:00:42,979 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:01:21,821 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:01:21,822 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:01:25,857 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:12,259 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:12,269 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:02:16,309 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+ERROR 2020-07-13 22:02:16,336 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:02:19,488 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:02:19,489 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:23,522 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:31,176 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:02:31,186 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:35,214 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+ERROR 2020-07-13 22:02:35,216 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:02:36,453 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 541
+INFO 2020-07-13 22:02:46,425 basehttp 124 "GET /xadmin/home/nav/1/update/ HTTP/1.1" 200 20269
+INFO 2020-07-13 22:02:50,872 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:03:03,349 basehttp 124 "POST /xadmin/home/nav/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 22:03:07,644 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 33732
+INFO 2020-07-13 22:03:11,745 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:03:20,311 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:03:20,320 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:03:24,353 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:03:34,838 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:03:34,844 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:03:38,869 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 22:03:38,870 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:03:41,400 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:05:40,659 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:05:40,671 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:05:44,695 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:05:56,120 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:05:56,127 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:06:00,157 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:06:51,877 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:06:51,882 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:06:55,915 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:07:13,806 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:07:13,807 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:07:17,855 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:09:16,801 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:09:16,815 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:09:20,853 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:19:00,741 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:19:00,742 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:19:05,028 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:08,949 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:21:08,964 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:12,995 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:24,893 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:24,894 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:21:28,939 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:32,471 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:21:32,978 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:21:37,027 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:22:25,450 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:22:25,451 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:22:29,473 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:23:37,599 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:23:37,785 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:23:41,624 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:23:45,131 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:23:45,706 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:23:49,735 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:25:06,077 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:25:06,084 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:25:10,116 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:26:00,827 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:26:00,828 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:26:04,876 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:26:31,700 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:26:31,702 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:26:35,767 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:27:40,735 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:27:40,735 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:27:44,761 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:28:27,103 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:28:27,210 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 22:28:27,274 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+ERROR 2020-07-13 22:28:27,290 basehttp 124 "GET /home/banner/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:28:30,829 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:28:30,834 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:28:37,105 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:28:37,111 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:28:41,218 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 22:28:41,219 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:28:41,912 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:17,982 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:17,993 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:29:22,014 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:26,092 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:29:26,097 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:30,119 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:37,947 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:29:37,952 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:29:41,997 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:30:42,018 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:30:42,019 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:30:46,078 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:30:55,438 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:30:55,448 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:30:59,480 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 22:30:59,481 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:31:02,076 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:31:02,081 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 22:31:02,083 basehttp 124 "GET /home/banner/ HTTP/1.1" 500 59
+ERROR 2020-07-13 22:31:02,084 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-13 22:31:04,195 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:31:04,206 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:32:49,572 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 22:32:49,573 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:32:53,607 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 22:40:27,722 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 36455
+INFO 2020-07-13 22:40:39,223 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 36455
+INFO 2020-07-13 22:40:43,374 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:40:51,113 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 28639
+INFO 2020-07-13 22:58:29,748 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31107
+INFO 2020-07-13 22:58:35,160 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:58:43,713 basehttp 124 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 33381
+INFO 2020-07-13 22:58:47,850 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:58:54,362 basehttp 124 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 37113
+INFO 2020-07-13 22:58:58,442 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:59:06,222 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54828
+INFO 2020-07-13 22:59:10,294 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:59:21,549 basehttp 124 "GET /xadmin/course/coursecategory/ HTTP/1.1" 200 37479
+INFO 2020-07-13 22:59:25,603 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:59:32,907 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54828
+INFO 2020-07-13 22:59:36,985 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 22:59:44,284 basehttp 124 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 30051
+INFO 2020-07-13 22:59:44,325 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+WARNING 2020-07-13 22:59:44,453 base 93 Not Found: /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png
+INFO 2020-07-13 22:59:44,455 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+WARNING 2020-07-13 22:59:44,456 basehttp 124 "GET /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png HTTP/1.1" 404 1923
+INFO 2020-07-13 22:59:44,465 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-07-13 22:59:44,663 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2020-07-13 22:59:48,405 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:03:56,376 basehttp 124 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:04:00,625 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55063
+INFO 2020-07-13 23:04:04,726 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:04:12,962 basehttp 124 "GET /xadmin/course/course/2/update/ HTTP/1.1" 200 29988
+WARNING 2020-07-13 23:04:13,035 base 93 Not Found: /media/course/course-cover.jpeg
+WARNING 2020-07-13 23:04:13,036 basehttp 124 "GET /media/course/course-cover.jpeg HTTP/1.1" 404 1854
+INFO 2020-07-13 23:04:17,058 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:04:29,518 basehttp 124 "POST /xadmin/course/course/2/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:04:33,820 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55060
+INFO 2020-07-13 23:04:37,993 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:04:50,164 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:04:50,211 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 23:04:54,223 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:19:42,949 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 36455
+INFO 2020-07-13 23:19:47,385 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:19:54,874 basehttp 124 "GET /xadmin/home/nav/1/update/ HTTP/1.1" 200 23234
+INFO 2020-07-13 23:19:58,947 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:20:25,187 basehttp 124 "POST /xadmin/home/nav/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:20:29,420 basehttp 124 "GET /xadmin/home/nav/ HTTP/1.1" 200 36696
+INFO 2020-07-13 23:20:33,484 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:36:55,237 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-13 23:36:55,289 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:36:59,378 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:37:05,955 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-13 23:37:06,041 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:37:06,236 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:37:06,240 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:37:06,241 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:37:06,242 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:37:19,296 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:37:19,359 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 200 98963
+INFO 2020-07-13 23:37:19,374 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 200 33637
+INFO 2020-07-13 23:37:23,357 basehttp 124 "GET /course/list_filter/?page=8&size=2&ordering=-id HTTP/1.1" 200 897
+WARNING 2020-07-13 23:37:23,374 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:37:23,375 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:37:24,688 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:37:27,398 basehttp 124 "GET /course/list_filter/?page=8&size=2&ordering=-id HTTP/1.1" 200 897
+WARNING 2020-07-13 23:37:27,418 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:37:27,419 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:37:28,749 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:37:31,454 basehttp 124 "GET /course/list_filter/?page=8&size=2&ordering=-id HTTP/1.1" 200 897
+WARNING 2020-07-13 23:37:31,495 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:37:31,496 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:37:32,971 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:37:34,668 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:37:34,695 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:37:34,700 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:37:34,701 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:37:34,702 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:37:43,795 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:37:50,276 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:37:50,296 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:37:50,300 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:37:50,310 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:37:50,313 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:37:58,081 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id&course_category=2 HTTP/1.1" 200 718
+WARNING 2020-07-13 23:37:58,107 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:37:58,113 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:37:58,114 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:37:58,131 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:38:05,889 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id&course_category=6 HTTP/1.1" 200 321
+WARNING 2020-07-13 23:38:05,904 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:38:05,905 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:38:12,754 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:38:12,774 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:38:12,777 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:38:12,779 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:38:12,781 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:38:18,239 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 200 938
+INFO 2020-07-13 23:38:24,460 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=students HTTP/1.1" 200 854
+WARNING 2020-07-13 23:38:24,475 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:38:24,477 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:38:32,767 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-students HTTP/1.1" 200 739
+WARNING 2020-07-13 23:38:32,838 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:38:32,841 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:38:32,841 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:38:32,842 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:38:38,395 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-price HTTP/1.1" 200 664
+WARNING 2020-07-13 23:38:38,411 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:38:38,413 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:38:45,056 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=price HTTP/1.1" 200 862
+INFO 2020-07-13 23:38:53,541 basehttp 124 "GET /course/list_filter/?page=1&size=3&ordering=price HTTP/1.1" 200 1130
+WARNING 2020-07-13 23:38:53,592 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:38:53,593 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:39:06,233 basehttp 124 "GET /course/list_filter/?page=1&size=3&ordering=price&course_category=2 HTTP/1.1" 200 931
+WARNING 2020-07-13 23:39:06,252 base 93 Not Found: /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg
+WARNING 2020-07-13 23:39:06,257 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:39:06,258 basehttp 124 "GET /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:39:06,259 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:39:11,411 basehttp 124 "GET /course/list_filter/?page=1&size=3&ordering=price HTTP/1.1" 200 1130
+WARNING 2020-07-13 23:39:11,425 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:39:11,425 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:41:53,448 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-13 23:41:53,455 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+WARNING 2020-07-13 23:41:53,477 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:41:53,479 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:41:53,481 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:41:53,481 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:42:43,252 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-13 23:42:43,277 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:42:43,313 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:42:43,319 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:42:43,320 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:42:43,321 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:42:58,488 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 939
+INFO 2020-07-13 23:42:58,560 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 23:42:58,560 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 23:43:37,155 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:43:41,203 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:43:52,832 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-13 23:43:52,840 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:43:52,874 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:43:52,880 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:43:52,881 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:43:52,882 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:44:00,354 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:44:04,392 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:44:05,929 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+WARNING 2020-07-13 23:44:05,970 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:44:05,973 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+INFO 2020-07-13 23:44:05,977 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+WARNING 2020-07-13 23:44:05,978 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+WARNING 2020-07-13 23:44:05,982 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:44:52,145 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54828
+INFO 2020-07-13 23:44:56,657 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:45:06,711 basehttp 124 "GET /xadmin/course/course/29/update/ HTTP/1.1" 200 30062
+WARNING 2020-07-13 23:45:06,930 base 93 Not Found: /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png
+WARNING 2020-07-13 23:45:06,931 basehttp 124 "GET /media/course/2efe076a-8378-4980-9b94-606a0546fb93.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:45:10,832 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:45:50,184 basehttp 124 "POST /xadmin/course/course/29/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:45:54,512 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55066
+INFO 2020-07-13 23:45:58,688 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:46:07,570 basehttp 124 "GET /xadmin/course/course/28/update/ HTTP/1.1" 200 30029
+WARNING 2020-07-13 23:46:07,678 base 93 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-13 23:46:07,679 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:46:11,685 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:46:24,733 basehttp 124 "POST /xadmin/course/course/28/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:46:30,737 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55062
+INFO 2020-07-13 23:46:34,851 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:46:40,930 basehttp 124 "GET /xadmin/course/course/27/update/ HTTP/1.1" 200 30005
+WARNING 2020-07-13 23:46:41,080 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:46:41,081 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:46:45,105 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:46:57,504 basehttp 124 "POST /xadmin/course/course/27/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:47:01,799 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55069
+INFO 2020-07-13 23:47:05,906 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:47:12,049 basehttp 124 "GET /xadmin/course/course/26/update/ HTTP/1.1" 200 30054
+WARNING 2020-07-13 23:47:12,205 base 93 Not Found: /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg
+WARNING 2020-07-13 23:47:12,206 basehttp 124 "GET /media/course/9000eeed-b0af-4df4-b6fb-c2becfcc5b18.jpg HTTP/1.1" 404 1923
+INFO 2020-07-13 23:47:16,228 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:47:27,924 basehttp 124 "POST /xadmin/course/course/26/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:47:32,163 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55069
+INFO 2020-07-13 23:47:36,246 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:47:46,204 basehttp 124 "GET /xadmin/course/course/25/update/ HTTP/1.1" 200 30022
+INFO 2020-07-13 23:47:46,324 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 200 98963
+INFO 2020-07-13 23:47:50,292 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:47:57,834 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54828
+INFO 2020-07-13 23:48:04,551 basehttp 124 "GET /xadmin/course/course/24/update/ HTTP/1.1" 200 30062
+WARNING 2020-07-13 23:48:04,649 base 93 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-13 23:48:04,649 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:48:08,666 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:48:21,199 basehttp 124 "POST /xadmin/course/course/24/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:48:25,454 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55071
+INFO 2020-07-13 23:48:29,532 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:48:38,630 basehttp 124 "GET /xadmin/course/course/23/update/ HTTP/1.1" 200 30058
+INFO 2020-07-13 23:48:38,720 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 200 33637
+INFO 2020-07-13 23:48:42,771 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:48:49,309 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54828
+INFO 2020-07-13 23:48:56,527 basehttp 124 "GET /xadmin/course/course/22/update/ HTTP/1.1" 200 30082
+WARNING 2020-07-13 23:48:56,574 base 93 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-13 23:48:56,576 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1923
+INFO 2020-07-13 23:49:00,608 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:49:11,970 basehttp 124 "POST /xadmin/course/course/22/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:49:16,220 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55076
+INFO 2020-07-13 23:49:20,287 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:49:27,693 basehttp 124 "GET /xadmin/course/course/21/update/ HTTP/1.1" 200 30090
+WARNING 2020-07-13 23:49:27,804 base 93 Not Found: /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg
+WARNING 2020-07-13 23:49:27,805 basehttp 124 "GET /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg HTTP/1.1" 404 1923
+INFO 2020-07-13 23:49:31,842 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:49:42,843 basehttp 124 "POST /xadmin/course/course/21/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:49:47,134 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55078
+INFO 2020-07-13 23:49:51,206 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:50:00,335 basehttp 124 "GET /xadmin/course/course/20/update/ HTTP/1.1" 200 29986
+WARNING 2020-07-13 23:50:00,395 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:50:00,397 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:50:04,411 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:50:15,452 basehttp 124 "POST /xadmin/course/course/20/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:50:19,757 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55069
+INFO 2020-07-13 23:50:23,840 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:50:30,925 basehttp 124 "GET /xadmin/course/course/19/update/ HTTP/1.1" 200 29938
+WARNING 2020-07-13 23:50:30,993 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:50:30,995 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:50:35,009 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:50:45,606 basehttp 124 "POST /xadmin/course/course/19/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:50:49,882 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55057
+INFO 2020-07-13 23:50:53,974 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:51:01,082 basehttp 124 "GET /xadmin/course/course/18/update/ HTTP/1.1" 200 29974
+WARNING 2020-07-13 23:51:01,134 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:51:01,134 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:51:05,163 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:51:15,598 basehttp 124 "POST /xadmin/course/course/18/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:51:19,838 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55066
+INFO 2020-07-13 23:51:23,945 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:51:30,938 basehttp 124 "GET /xadmin/course/course/17/update/ HTTP/1.1" 200 30021
+WARNING 2020-07-13 23:51:30,994 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:51:30,995 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:51:35,038 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:51:46,073 basehttp 124 "POST /xadmin/course/course/17/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:51:50,297 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55078
+INFO 2020-07-13 23:51:54,375 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:52:10,457 basehttp 124 "GET /xadmin/course/course/16/update/ HTTP/1.1" 200 29969
+WARNING 2020-07-13 23:52:10,521 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:52:10,524 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:52:14,544 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:52:37,957 basehttp 124 "POST /xadmin/course/course/16/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:52:42,216 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55065
+INFO 2020-07-13 23:52:46,305 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:53:20,567 basehttp 124 "GET /xadmin/course/course/15/update/ HTTP/1.1" 200 29973
+WARNING 2020-07-13 23:53:20,628 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:53:20,629 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:53:24,642 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:53:40,033 basehttp 124 "POST /xadmin/course/course/15/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:53:44,266 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55066
+INFO 2020-07-13 23:53:48,335 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:54:15,135 basehttp 124 "GET /xadmin/course/course/3/update/ HTTP/1.1" 200 29990
+WARNING 2020-07-13 23:54:15,193 base 93 Not Found: /media/course/2.jpeg
+WARNING 2020-07-13 23:54:15,194 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1821
+INFO 2020-07-13 23:54:19,204 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:54:44,421 basehttp 124 "POST /xadmin/course/course/3/update/ HTTP/1.1" 302 0
+INFO 2020-07-13 23:54:48,710 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55066
+INFO 2020-07-13 23:54:52,822 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-13 23:55:25,170 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-13 23:55:25,170 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-13 23:55:25,259 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 200 28248
+INFO 2020-07-13 23:55:25,270 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 200 33010
+INFO 2020-07-13 23:55:32,225 basehttp 124 "GET /course/list_filter/?page=4&size=2&ordering=-id HTTP/1.1" 200 830
+INFO 2020-07-13 23:55:32,250 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-13 23:55:32,252 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35_RHCrIC6.png HTTP/1.1" 200 81807
+INFO 2020-07-13 23:55:42,584 basehttp 124 "GET /course/list_filter/?page=6&size=2&ordering=-id HTTP/1.1" 200 817
+INFO 2020-07-13 23:55:42,600 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab_nBirfkm.jpg HTTP/1.1" 200 33637
+INFO 2020-07-13 23:55:42,651 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab_QWAUIdW.jpg HTTP/1.1" 200 28248
+INFO 2020-07-13 23:55:48,195 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-13 23:55:52,223 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-13 23:55:52,465 basehttp 124 "GET /home/nav/ HTTP/1.1" 500 59
+INFO 2020-07-14 08:43:38,969 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-14 08:43:38,969 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:43:39,157 basehttp 124 "GET /media/banner/004.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 08:43:39,157 basehttp 124 "GET /media/banner/01.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 08:43:39,157 basehttp 124 "GET /media/banner/09.png HTTP/1.1" 304 0
+INFO 2020-07-14 08:43:43,176 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:43:50,821 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:43:51,083 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:43:51,203 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 08:43:51,203 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 08:44:07,097 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:44:07,124 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:44:15,584 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:44:15,606 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:46:31,388 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:46:31,425 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:47:28,565 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:47:32,014 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:47:32,023 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:47:32,646 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:47:52,956 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:47:57,160 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:48:28,311 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:48:28,321 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:53:33,884 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 08:53:33,901 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 08:54:00,190 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:54:04,252 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:56:39,636 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:56:43,705 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:58:38,738 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:58:42,817 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:59:33,899 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 08:59:37,931 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:15,420 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:19,490 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:28,636 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:32,736 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:48,873 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:00:52,929 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:03:31,125 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:03:35,193 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:03:42,332 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:03:42,447 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:03:45,652 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:03:49,729 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:04:17,088 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:04:21,215 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:06:12,630 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:10:35,202 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:10:39,291 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:10:47,862 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:10:51,928 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:11:39,854 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:11:43,933 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:17:16,762 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:17:16,771 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:17:20,942 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:17:20,968 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:17:40,383 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:17:44,482 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:19:08,617 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:19:12,740 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:24:37,663 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:24:37,752 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:24:52,160 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:24:56,239 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:25:48,850 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:25:48,870 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:25:55,005 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:25:59,070 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:28:31,142 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:28:35,237 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:33:45,564 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:33:49,620 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:36:21,622 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:36:23,801 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:36:23,831 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:36:25,689 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:36:43,626 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:36:43,670 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:36:51,531 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:36:55,611 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:50:38,835 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:50:42,953 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:55:24,572 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:55:24,602 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:55:24,770 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 09:55:24,770 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 09:55:36,366 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 09:55:36,391 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 733
+INFO 2020-07-14 09:55:55,606 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 301
+INFO 2020-07-14 09:55:55,624 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:55:59,716 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:57:52,376 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 301
+INFO 2020-07-14 09:57:52,487 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:57:56,553 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:58:18,375 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:58:18,410 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 301
+INFO 2020-07-14 09:58:22,445 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:59:31,818 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 09:59:31,833 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 301
+INFO 2020-07-14 09:59:35,903 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:00:02,426 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:00:02,441 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 301
+INFO 2020-07-14 10:00:06,547 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:04:07,245 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:04:07,281 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 312
+INFO 2020-07-14 10:04:11,831 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:05:32,821 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:05:32,829 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:05:36,957 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:07:52,637 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:07:52,647 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:07:56,746 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:08:46,744 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:08:46,751 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:08:50,834 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:09:27,514 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:09:27,556 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:09:31,673 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:11:15,034 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:11:15,034 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:11:19,154 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:12:27,407 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:12:28,263 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 322
+INFO 2020-07-14 10:12:32,304 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 10:33:08,792 exceptions 18 <course.views.CourseinforRetrieveAPIView object at 0x000001C7015FA3C8> GET Got AttributeError when attempting to get a value for field `chapter` on serializer `CourseLessonrSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RelatedManager` instance.
+Original exception text was: 'RelatedManager' object has no attribute 'chapter'.
+ERROR 2020-07-14 10:33:08,831 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 56
+INFO 2020-07-14 10:33:08,951 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:33:13,065 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 10:37:07,495 exceptions 18 <course.views.CourseinforRetrieveAPIView object at 0x000001D9E8B8A240> GET Got AttributeError when attempting to get a value for field `course_chapter` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Course` instance.
+Original exception text was: 'Course' object has no attribute 'course_chapter'.
+ERROR 2020-07-14 10:37:07,495 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 56
+INFO 2020-07-14 10:37:07,531 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:37:11,635 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 10:39:15,324 exceptions 18 <course.views.CourseinforRetrieveAPIView object at 0x000002148ED27390> GET Got AttributeError when attempting to get a value for field `course_chapter` on serializer `CourseModelSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Course` instance.
+Original exception text was: 'Course' object has no attribute 'course_chapter'.
+ERROR 2020-07-14 10:39:15,324 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 56
+INFO 2020-07-14 10:39:15,354 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:39:19,423 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:50:09,347 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:50:09,394 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 363
+INFO 2020-07-14 10:50:13,418 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:52:24,309 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:52:24,342 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 363
+INFO 2020-07-14 10:52:28,409 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:58:35,717 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:58:35,726 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 363
+INFO 2020-07-14 10:58:39,782 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:59:57,526 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 10:59:57,540 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 924
+INFO 2020-07-14 11:00:01,566 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:00:54,288 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 924
+INFO 2020-07-14 11:00:54,298 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:00:58,378 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:02:12,895 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:02:12,951 exception 118 Internal Server Error: /course/list_infor/28
+Traceback (most recent call last):
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Course' is not JSON serializable
+ERROR 2020-07-14 11:02:13,314 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 127613
+INFO 2020-07-14 11:02:16,945 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:04:06,230 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:04:06,247 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 924
+INFO 2020-07-14 11:04:10,288 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:05:23,448 exception 118 Internal Server Error: /course/list_infor/28
+Traceback (most recent call last):
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'Course' is not JSON serializable
+INFO 2020-07-14 11:05:23,473 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:05:23,587 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 127613
+INFO 2020-07-14 11:05:27,543 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:06:46,262 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:06:46,271 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 200 924
+INFO 2020-07-14 11:06:50,350 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:09:03,741 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:09:03,769 exceptions 18 <course.views.CourseinforRetrieveAPIView object at 0x00000269B8C83B38> GET invalid literal for int() with base 10: 'UI入门'
+ERROR 2020-07-14 11:09:03,813 basehttp 124 "GET /course/list_infor/28 HTTP/1.1" 500 56
+INFO 2020-07-14 11:09:07,796 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:09:49,511 exceptions 18 <course.views.CourseFilterListAPIView object at 0x00000269B8D04A58> GET invalid literal for int() with base 10: '动静分离'
+ERROR 2020-07-14 11:09:49,561 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 500 56
+INFO 2020-07-14 11:09:49,594 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:10:29,047 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:10:29,077 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1979
+INFO 2020-07-14 11:10:29,276 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 11:10:29,276 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 304 0
+ERROR 2020-07-14 11:10:57,722 exception 118 Internal Server Error: /course/list_filter/
+Traceback (most recent call last):
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'CourseChapter' is not JSON serializable
+ERROR 2020-07-14 11:10:57,861 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 500 138530
+INFO 2020-07-14 11:12:22,863 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:12:22,893 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 787
+INFO 2020-07-14 11:12:31,148 basehttp 124 "GET /course/list_filter/?page=9&size=2&ordering=-id HTTP/1.1" 200 779
+INFO 2020-07-14 11:12:31,199 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 11:12:31,201 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 11:12:39,386 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 328
+INFO 2020-07-14 11:12:39,397 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:12:43,455 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:14:33,941 exceptions 18 <course.views.CourseinforRetrieveAPIView object at 0x000001C202734AC8> GET invalid literal for int() with base 10: 'vue框架'
+ERROR 2020-07-14 11:14:33,971 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 500 56
+INFO 2020-07-14 11:14:33,976 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:14:38,057 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:16:47,887 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 11:16:47,932 exception 118 Internal Server Error: /course/list_infor/1
+Traceback (most recent call last):
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'CourseChapter' is not JSON serializable
+ERROR 2020-07-14 11:16:48,067 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 500 132574
+INFO 2020-07-14 11:16:51,957 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:19:43,839 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:19:43,897 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1979
+ERROR 2020-07-14 11:19:53,873 exception 118 Internal Server Error: /course/list_filter/
+Traceback (most recent call last):
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\renderers.py", line 104, in render
+    allow_nan=not self.strict, separators=separators
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\2345Downloads\Software\djanggo\testenv01\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "c:\users\administrator\appdata\local\programs\python\python36\lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'CourseChapter' is not JSON serializable
+ERROR 2020-07-14 11:19:54,003 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 500 138736
+INFO 2020-07-14 11:20:29,619 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+ERROR 2020-07-14 11:20:29,629 exceptions 18 <course.views.CourseFilterListAPIView object at 0x0000018839F07F28> GET Field name `chapter_list` is not valid for model `Course`.
+ERROR 2020-07-14 11:20:29,633 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 500 56
+INFO 2020-07-14 11:20:50,230 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+ERROR 2020-07-14 11:20:50,239 exceptions 18 <course.views.CourseFilterListAPIView object at 0x0000018839F4B7B8> GET Field name `chapter_list` is not valid for model `Course`.
+ERROR 2020-07-14 11:20:50,249 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 500 56
+INFO 2020-07-14 11:21:21,362 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+ERROR 2020-07-14 11:21:21,407 exceptions 18 <course.views.CourseFilterListAPIView object at 0x000001AEAFD9CF98> GET Field name `chapter_list` is not valid for model `Course`.
+ERROR 2020-07-14 11:21:21,408 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 500 56
+INFO 2020-07-14 11:22:06,336 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:22:06,366 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 787
+INFO 2020-07-14 11:22:13,682 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 200 778
+INFO 2020-07-14 11:22:21,052 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 328
+INFO 2020-07-14 11:22:21,062 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:22:25,144 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:29:56,026 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 328
+INFO 2020-07-14 11:30:07,238 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:30:07,272 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 787
+INFO 2020-07-14 11:30:14,801 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:30:35,506 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:31:05,446 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 11:31:05,466 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 787
+INFO 2020-07-14 11:31:23,154 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:31:24,953 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:31:27,207 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:31:29,004 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:31:50,234 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:31:50,244 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:31:54,283 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:32:31,509 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:32:35,716 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:32:39,810 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:33:35,693 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:33:39,902 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:33:43,941 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:34:37,229 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 330
+INFO 2020-07-14 11:34:41,477 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:34:45,527 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:36:30,758 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 396
+WARNING 2020-07-14 11:36:31,041 base 93 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 11:36:31,041 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1836
+INFO 2020-07-14 11:36:34,954 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:36:39,026 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+WARNING 2020-07-14 11:37:13,082 base 93 Not Found: /
+WARNING 2020-07-14 11:37:13,083 basehttp 124 "GET / HTTP/1.1" 404 2373
+WARNING 2020-07-14 11:37:13,432 base 93 Not Found: /favicon.ico
+WARNING 2020-07-14 11:37:13,433 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2424
+INFO 2020-07-14 11:37:22,670 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 18512
+INFO 2020-07-14 11:37:23,039 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,160 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,161 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,161 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,161 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,161 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,253 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,280 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,306 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,320 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,321 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,322 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,324 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,353 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,354 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,355 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,357 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,358 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:23,360 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:27,420 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 11:37:27,636 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,334 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31107
+INFO 2020-07-14 11:37:36,392 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,400 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,404 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,446 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,456 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,457 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:36,458 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:40,425 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 11:37:47,102 basehttp 124 "GET /xadmin/course/teacher/1/update/ HTTP/1.1" 200 25966
+WARNING 2020-07-14 11:37:47,176 base 93 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 11:37:47,180 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1836
+INFO 2020-07-14 11:37:47,181 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,184 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,185 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,328 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,330 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,331 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,428 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,429 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,486 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:47,516 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-07-14 11:37:51,206 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 11:38:21,231 basehttp 124 "POST /xadmin/course/teacher/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-14 11:38:25,422 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31342
+INFO 2020-07-14 11:38:29,494 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 11:38:38,010 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 392
+INFO 2020-07-14 11:38:38,270 basehttp 124 "GET /media/teacher/04.jpg HTTP/1.1" 200 8896
+INFO 2020-07-14 11:38:42,262 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 11:38:46,326 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:13:33,984 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31107
+INFO 2020-07-14 13:25:53,332 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 392
+INFO 2020-07-14 13:25:56,802 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 13:25:56,811 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 911
+INFO 2020-07-14 13:25:57,130 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 13:25:57,130 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 13:26:02,806 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 392
+INFO 2020-07-14 13:26:03,118 basehttp 124 "GET /media/teacher/04.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 13:26:07,169 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:26:11,219 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:52:26,492 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 392
+INFO 2020-07-14 13:52:26,733 basehttp 124 "GET /media/teacher/04.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 13:52:31,320 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:52:31,612 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 911
+INFO 2020-07-14 13:52:31,625 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 13:52:35,353 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:52:37,662 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 392
+INFO 2020-07-14 13:52:41,920 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:52:45,961 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:54:16,899 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 409
+INFO 2020-07-14 13:54:21,442 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:54:25,540 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:59:30,697 basehttp 124 "GET /course/list_infor/29 HTTP/1.1" 200 409
+INFO 2020-07-14 13:59:34,976 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 13:59:39,004 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 19:33:08,459 basehttp 124 "GET /xadmin/course/teacher/ HTTP/1.1" 200 31107
+INFO 2020-07-14 19:33:17,757 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 19:33:27,032 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54952
+INFO 2020-07-14 19:33:31,208 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 19:33:44,088 basehttp 124 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 30323
+INFO 2020-07-14 19:33:44,853 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 19:33:45,221 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2020-07-14 19:33:48,856 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 19:34:29,293 basehttp 124 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-14 19:34:33,664 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55187
+INFO 2020-07-14 19:34:38,245 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:29:57,997 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 275
+INFO 2020-07-14 20:29:58,009 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:29:58,348 basehttp 124 "GET /media/banner/09.png HTTP/1.1" 304 0
+INFO 2020-07-14 20:29:58,350 basehttp 124 "GET /media/banner/004.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:29:58,351 basehttp 124 "GET /media/banner/01.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:30:02,249 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:30:09,940 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1009
+INFO 2020-07-14 20:30:09,970 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:30:10,106 basehttp 124 "GET /media/course/b1317afc-bb86-4389-92c3-3c66556962aa.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:30:10,155 basehttp 124 "GET /media/course/eef566c7-aa50-4d05-9c5a-270ddb09a7ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:30:21,258 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 200 1089
+INFO 2020-07-14 20:30:21,318 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:30:21,349 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:30:28,967 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 528
+INFO 2020-07-14 20:30:33,962 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:30:37,985 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:31:04,651 basehttp 124 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 37113
+INFO 2020-07-14 20:31:09,664 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:31:22,524 basehttp 124 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 33381
+INFO 2020-07-14 20:31:26,626 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:31:40,499 basehttp 124 "GET /xadmin/course/courselesson/add/ HTTP/1.1" 200 26294
+INFO 2020-07-14 20:31:44,830 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:32:44,035 basehttp 124 "POST /xadmin/course/courselesson/add/ HTTP/1.1" 302 0
+INFO 2020-07-14 20:32:48,282 basehttp 124 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 34147
+INFO 2020-07-14 20:32:52,399 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:33:07,725 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:33:07,737 basehttp 124 "GET /media/teacher/04.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:33:07,747 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 20:33:07,760 exceptions 18 <course.views.CourseChapterAPIView object at 0x000001F5126214E0> GET Field name `coursechapters` is not valid for model `CourseChapter`.
+ERROR 2020-07-14 20:33:07,761 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 500 56
+INFO 2020-07-14 20:33:07,933 basehttp 124 "GET /media/video/Rec_0001.mp4 HTTP/1.1" 200 794236
+INFO 2020-07-14 20:33:11,925 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+ERROR 2020-07-14 20:33:42,707 exceptions 18 <course.views.CourseChapterAPIView object at 0x000001F51261B400> GET Field name `coursechapters` is not valid for model `CourseChapter`.
+ERROR 2020-07-14 20:33:42,708 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 500 56
+INFO 2020-07-14 20:33:42,723 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:33:42,730 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:33:46,767 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:36:06,859 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:36:06,875 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 460
+INFO 2020-07-14 20:36:07,362 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:36:10,975 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:37:58,866 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:37:58,875 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 460
+INFO 2020-07-14 20:37:58,891 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:38:02,944 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:39:11,303 basehttp 124 "GET /xadmin/course/coursechapter/ HTTP/1.1" 200 37113
+INFO 2020-07-14 20:39:15,521 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:39:28,053 basehttp 124 "GET /xadmin/course/coursechapter/?_cols=__str__.course HTTP/1.1" 200 41997
+INFO 2020-07-14 20:39:32,136 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 20:41:30,629 basehttp 124 "GET /xadmin/course/courselesson/ HTTP/1.1" 200 33799
+INFO 2020-07-14 20:41:34,710 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2020-07-14 20:41:52,027 exceptions 18 <course.views.CourseChapterAPIView object at 0x00000131F1677AC8> GET The field 'coursechapters' was declared on serializer CourseChapterSerializer, but has not been included in the 'fields' option.
+ERROR 2020-07-14 20:41:52,035 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 500 56
+INFO 2020-07-14 20:41:52,039 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:41:52,060 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:41:52,347 basehttp 124 "GET /media/video/Rec_0001.mp4 HTTP/1.1" 304 0
+INFO 2020-07-14 20:41:56,102 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:44:37,481 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 538
+INFO 2020-07-14 20:44:37,706 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 20:44:37,744 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 1014
+INFO 2020-07-14 20:44:41,751 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 21:11:41,272 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 21:11:41,539 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1046
+INFO 2020-07-14 21:11:51,046 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 200 1272
+INFO 2020-07-14 21:11:58,176 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 689
+INFO 2020-07-14 21:11:58,187 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 21:11:58,255 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 21:11:58,342 basehttp 124 "GET /media/video/Rec_0001.mp4 HTTP/1.1" 304 0
+INFO 2020-07-14 21:12:02,228 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 21:13:43,689 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 21:13:43,713 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 689
+INFO 2020-07-14 21:13:43,724 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 21:13:47,835 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 21:34:01,081 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 54952
+INFO 2020-07-14 21:34:07,367 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 21:34:20,226 basehttp 124 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 31962
+INFO 2020-07-14 21:34:21,220 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+INFO 2020-07-14 21:34:21,484 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+INFO 2020-07-14 21:34:24,838 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 21:34:25,706 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+INFO 2020-07-14 21:34:26,547 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=JB9C HTTP/1.1" 200 18600
+INFO 2020-07-14 21:34:26,646 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 200 47977
+INFO 2020-07-14 21:34:26,774 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 200 5579
+INFO 2020-07-14 21:34:26,930 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+INFO 2020-07-14 21:34:26,930 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 200 381
+INFO 2020-07-14 21:34:26,933 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 200 419
+INFO 2020-07-14 21:34:26,946 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+INFO 2020-07-14 21:34:26,982 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 200 1306
+INFO 2020-07-14 21:34:27,068 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2020-07-14 21:34:27,547 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 200 12421
+INFO 2020-07-14 21:34:27,690 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 200 3094
+INFO 2020-07-14 21:35:01,340 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js?t=JB9C HTTP/1.1" 200 3463
+INFO 2020-07-14 21:35:01,555 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=JB9C HTTP/1.1" 200 13708
+INFO 2020-07-14 21:35:01,697 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png HTTP/1.1" 200 1115
+INFO 2020-07-14 21:35:01,698 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png HTTP/1.1" 200 1084
+INFO 2020-07-14 21:35:01,875 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 200 1114
+INFO 2020-07-14 21:35:01,886 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png HTTP/1.1" 200 1183
+INFO 2020-07-14 21:35:01,975 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 200 1101
+INFO 2020-07-14 21:35:02,193 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png HTTP/1.1" 200 1145
+INFO 2020-07-14 21:35:02,218 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 200 1132
+INFO 2020-07-14 21:35:02,218 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png HTTP/1.1" 200 1039
+INFO 2020-07-14 21:35:02,236 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png HTTP/1.1" 200 1220
+INFO 2020-07-14 21:35:02,237 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png HTTP/1.1" 200 1214
+INFO 2020-07-14 21:35:02,248 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png HTTP/1.1" 200 1220
+INFO 2020-07-14 21:35:02,252 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png HTTP/1.1" 200 959
+INFO 2020-07-14 21:35:02,259 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png HTTP/1.1" 200 919
+INFO 2020-07-14 21:35:02,260 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+INFO 2020-07-14 21:35:02,265 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/kiss.png HTTP/1.1" 200 1003
+INFO 2020-07-14 21:35:02,269 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/envelope.png HTTP/1.1" 200 760
+INFO 2020-07-14 21:35:02,271 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png HTTP/1.1" 200 1172
+INFO 2020-07-14 21:35:02,275 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2020-07-14 21:35:02,281 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png HTTP/1.1" 200 1139
+INFO 2020-07-14 21:35:02,294 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png HTTP/1.1" 200 1122
+INFO 2020-07-14 21:35:02,295 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png HTTP/1.1" 200 1204
+INFO 2020-07-14 21:35:02,295 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png HTTP/1.1" 200 985
+INFO 2020-07-14 21:35:25,839 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/image/dialogs/image.js?t=JB9C HTTP/1.1" 200 21531
+INFO 2020-07-14 21:35:25,944 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/lock.png HTTP/1.1" 200 506
+INFO 2020-07-14 21:35:25,998 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/refresh.png HTTP/1.1" 200 757
+INFO 2020-07-14 21:37:56,631 basehttp 124 "POST /ckeditor/upload/ HTTP/1.1" 200 142
+INFO 2020-07-14 21:37:56,722 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 200 33637
+INFO 2020-07-14 21:37:56,728 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 21:37:58,491 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 21:38:09,677 basehttp 124 "POST /xadmin/course/course/1/update/ HTTP/1.1" 302 0
+INFO 2020-07-14 21:38:13,983 basehttp 124 "GET /xadmin/course/course/ HTTP/1.1" 200 55187
+INFO 2020-07-14 21:38:18,287 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 21:46:17,354 basehttp 124 "GET /xadmin/course/course/1/update/ HTTP/1.1" 200 32839
+INFO 2020-07-14 21:46:17,527 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:17,734 basehttp 124 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:17,795 basehttp 124 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,520 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-07-14 21:46:21,797 basehttp 124 "GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,812 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,813 basehttp 124 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,864 basehttp 124 "GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,895 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,896 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,902 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,903 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,910 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,915 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:21,982 basehttp 124 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:22,090 basehttp 124 "GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:22,109 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:22,110 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 304 0
+INFO 2020-07-14 21:46:22,110 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 22:34:21,394 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 22:34:21,672 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=-id HTTP/1.1" 200 1056
+INFO 2020-07-14 22:34:47,458 basehttp 124 "GET /course/list_filter/?page=1&size=2&ordering=id HTTP/1.1" 200 1997
+INFO 2020-07-14 22:34:54,308 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 1409
+INFO 2020-07-14 22:34:54,449 basehttp 124 "GET /media/video/Rec_0001.mp4 HTTP/1.1" 304 0
+INFO 2020-07-14 22:34:54,458 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:34:54,478 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 22:34:58,521 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:36:49,783 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:36:49,855 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 22:36:49,909 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 1409
+INFO 2020-07-14 22:36:49,971 basehttp 124 "GET /media/teacher/04.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 22:36:53,835 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:36:58,723 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 304 0
+INFO 2020-07-14 22:36:58,880 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 304 0
+WARNING 2020-07-14 22:36:58,970 base 93 Not Found: /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg"
+WARNING 2020-07-14 22:36:58,971 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg%22 HTTP/1.1" 404 1950
+INFO 2020-07-14 22:38:27,790 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 1409
+INFO 2020-07-14 22:38:27,796 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:38:27,889 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 22:38:31,823 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:43:37,664 basehttp 124 "GET /course/list_infor/1 HTTP/1.1" 200 1411
+INFO 2020-07-14 22:43:37,675 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:43:37,696 basehttp 124 "GET /course/list_chapter/?course=1 HTTP/1.1" 200 673
+INFO 2020-07-14 22:43:37,884 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 22:43:41,767 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 542
+INFO 2020-07-14 22:43:43,305 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 304 0
+INFO 2020-07-14 22:43:43,306 basehttp 124 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 304 0
+INFO 2020-07-14 22:43:43,312 basehttp 124 "GET /media/2020/07/14/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0

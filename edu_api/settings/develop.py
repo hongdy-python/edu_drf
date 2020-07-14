@@ -18,7 +18,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 修改默认的子应用的目录后，需要将该目录设置为全局的导包路径
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
@@ -33,7 +32,6 @@ ALLOWED_HOSTS = [
     'www.baizhishop.com',
 ]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,13 +43,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-# x admin配置
+    # x admin配置
     'xadmin',
     'crispy_forms',
     'reversion',
+    'django_filters',
+    # 富文本编辑器配置
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器的上传模块
 
     'home',
     'user',
+    'course',
 ]
 
 MIDDLEWARE = [
@@ -86,7 +89,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'edu_api.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
@@ -100,7 +102,6 @@ DATABASES = {
         'PORT': 3306
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -120,7 +121,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
@@ -133,7 +133,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
@@ -227,7 +226,6 @@ AUTHENTICATION_BACKENDS = [
     'user.utils.UserAuthBackend',
 ]
 
-
 # django 连接redis设置
 
 CACHES = {
@@ -254,4 +252,17 @@ CACHES = {
     },
 }
 
-#运行路径：http://api.baizhishop.com:8000/
+# devlope 配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',	# 展示哪些工具栏
+        'height': 300,	# 编辑器的高度
+        # 'width': 300,
+    },
+}
+
+
+CKEDITOR_UPLOAD_PATH = ''   #富文本上传图片路径，为空的话代表使用django的文件上传
+
+
+# 运行路径：http://api.baizhishop.com:8000/
