@@ -5,8 +5,11 @@ from rest_framework.generics import CreateAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status as http_status
+from rest_framework import serializers
 
 from django_redis import get_redis_connection
+from rest_framework.viewsets import ViewSet
+
 from edu_api.libs.geetest import GeetestLib
 from user.models import UserInfo
 from user.serializers import UserModelSerializer
@@ -105,3 +108,21 @@ class SendMessageAPIView(APIView):
 
         # 5. 响应回去
         return Response({"message": "发送短信成功"}, status=http_status.HTTP_200_OK)
+
+
+#验证短信登录
+class dxloginAPIView(APIView):
+
+    def post(self, request, *args, **kwargs):
+        username = request.data.get('username')
+        sms_code = request.data.get('sms_code')
+        try:
+            UserInfo.objects.get(username=username)
+            redis_connection = get_redis_connection("sms_code")
+            mobile_code = redis_connection.get("sms_%s" % username)
+            print(int(mobile_code))
+            if sms_code == int(mobile_code):
+                return Response({"message": "登录成功"}, status=http_status.HTTP_200_OK)
+            return Response({"message": "验证码错误"}, status=http_status.HTTP_400_BAD_REQUEST)
+        except:
+            return Response({"message": "用户不存在"}, status=http_status.HTTP_400_BAD_REQUEST)

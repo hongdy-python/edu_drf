@@ -29,6 +29,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
     path("user/", include("user.urls")),
     path("course/", include("course.urls")),
+    path("cart/", include("cart.urls")),
+    path("order/", include("order.urls")),
+    path("payments/", include("payments.urls")),
     # 富文本编辑器的路由
     path("ckeditor/", include("ckeditor_uploader.urls")),
 ]

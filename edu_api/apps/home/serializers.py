@@ -12,4 +12,4 @@ class BannerModelSerializer(serializers.ModelSerializer):
 class NavModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Nav
-        fields = ("title", 'position','link')
+        fields = ("title", 'position','link',"is_site")
