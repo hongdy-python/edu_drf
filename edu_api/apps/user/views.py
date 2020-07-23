@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status as http_status
 from rest_framework import serializers
+from rest_framework_jwt.views import obtain_jwt_token
 
 from django_redis import get_redis_connection
 from rest_framework.viewsets import ViewSet
@@ -16,6 +17,11 @@ from user.serializers import UserModelSerializer
 from user.utils import get_user_by_account
 from utils.send_msg import Message
 from edu_api.settings import constants
+
+from rest_framework_jwt.settings import api_settings
+
+jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
 
 pc_geetest_id = "6f91b3d2afe94ed29da03c14988fb4ef"
 pc_geetest_key = "7a01b1933685931ef5eaf5dabefd3df2"
@@ -101,14 +107,23 @@ class SendMessageAPIView(APIView):
 
         # 4. 调用方法  完成短信的发送
         try:
-            message = Message(constants.API_KEY)
-            message.send_message(mobile, code)
+
+            #通过celery异步执行发送短信的服务
+            from my_task.sms.tasks import send_sms
+            send_sms.delay(mobile,code)    #需要参数则传递过去，不需要就不用传
+            # message = Message(constants.API_KEY)
+            # message.send_message(mobile, code)
         except:
             return Response({"message": "短信发送失败"}, status=http_status.HTTP_500_INTERNAL_SERVER_ERROR)
 
         # 5. 响应回去
         return Response({"message": "发送短信成功"}, status=http_status.HTTP_200_OK)
 
+
+
+#获取验证码
+def get_token(user):
+    return jwt_encode_handler(jwt_payload_handler(user))
 
 #验证短信登录
 class dxloginAPIView(APIView):
@@ -117,12 +132,14 @@ class dxloginAPIView(APIView):
         username = request.data.get('username')
         sms_code = request.data.get('sms_code')
         try:
-            UserInfo.objects.get(username=username)
+            user = UserInfo.objects.get(username=username)
             redis_connection = get_redis_connection("sms_code")
             mobile_code = redis_connection.get("sms_%s" % username)
-            print(int(mobile_code))
-            if sms_code == int(mobile_code):
-                return Response({"message": "登录成功"}, status=http_status.HTTP_200_OK)
-            return Response({"message": "验证码错误"}, status=http_status.HTTP_400_BAD_REQUEST)
+            print(mobile_code.decode())
+            if sms_code == mobile_code.decode():
+                user.token = get_token(user)
+                return Response(UserModelSerializer(user).data)
+            return Response({"message": "验证码不一致"}, status=http_status.HTTP_400_BAD_REQUEST)
+
         except:
             return Response({"message": "用户不存在"}, status=http_status.HTTP_400_BAD_REQUEST)

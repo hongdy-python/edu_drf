@@ -18,18 +18,10 @@ class UserModelSerializer(serializers.ModelSerializer):
         fields = ("id", "username", "password", "phone", "token","sms_code")
 
         extra_kwargs = {
-            "id": {
-                'read_only': True,
-            },
-            "username": {
-                "read_only": True,
-            },
-            "password": {
-                "write_only": True,
-            },
-            "phone": {
-                "write_only": True
-            }
+            "id": {'read_only': True,},
+            "username": {"read_only": True,},
+            "password": {"write_only": True,},
+            "phone": {"write_only": True}
         }
 
     def validate(self, attrs):

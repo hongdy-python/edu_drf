@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac4eb38-d322-4e02-b923-a370192c9452" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/edu_api/apps/payments/keys/alipay_public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu_api/apps/payments/keys/app_private_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu_api/apps/payments/keys/app_public_key.pem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/course/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/course/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/course/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/course/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/course/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/course/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/course/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/home/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/home/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu_api/apps/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu_api/apps/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/apps/user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/settings/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/edu_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/lesson_api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lesson_api.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/send_msg.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/send_msg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +37,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/apps/payments/keys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu_api/util" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\my_task\file" />
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\my_task" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\util" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\payments\keys" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\course" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\user" />
       <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\libs" />
-      <recent name="D:\2345Downloads\Software\untitled\edu_api\edu_api\apps\home" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.edu_api">
@@ -198,7 +190,10 @@
       <workItem from="1595147892701" duration="20412000" />
       <workItem from="1595203814398" duration="2148000" />
       <workItem from="1595236448718" duration="17989000" />
-      <workItem from="1595295150734" duration="3973000" />
+      <workItem from="1595295150734" duration="11395000" />
+      <workItem from="1595343479813" duration="6990000" />
+      <workItem from="1595379863922" duration="10562000" />
+      <workItem from="1595475391717" duration="66000" />
     </task>
     <servers />
   </component>
@@ -214,30 +209,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1594652424236" />
-    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1595303056408">
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1595475461928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595303056408" />
-    <state width="1197" height="187" key="GridCell.Tab.0.bottom" timestamp="1595303012082">
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595475461928" />
+    <state width="1084" height="147" key="GridCell.Tab.0.bottom" timestamp="1595409544027">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1197" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595303012082" />
-    <state width="1197" height="187" key="GridCell.Tab.0.center" timestamp="1595303012082">
+    <state width="1084" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595409544027" />
+    <state width="1084" height="147" key="GridCell.Tab.0.center" timestamp="1595409544027">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1197" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595303012082" />
-    <state width="1197" height="187" key="GridCell.Tab.0.left" timestamp="1595303012081">
+    <state width="1084" height="147" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595409544027" />
+    <state width="1084" height="147" key="GridCell.Tab.0.left" timestamp="1595409544027">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1197" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595303012081" />
-    <state width="1197" height="187" key="GridCell.Tab.0.right" timestamp="1595303012082">
+    <state width="1084" height="147" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595409544027" />
+    <state width="1084" height="147" key="GridCell.Tab.0.right" timestamp="1595409544027">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1197" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595303012082" />
-    <state x="186" y="29" key="SettingsEditor" timestamp="1595303058230">
+    <state width="1084" height="147" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595409544027" />
+    <state x="186" y="29" key="SettingsEditor" timestamp="1595475464128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595303058230" />
+    <state x="186" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595475464128" />
     <state x="424" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1595254288400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
